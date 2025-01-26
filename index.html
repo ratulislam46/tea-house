@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-house</title>
+    <link rel="shortcut icon" href="images/mug-saucer-solid.svg" type="image/x-icon">
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,14 +27,71 @@
 </head>
 <body>
     <header>
-         <section>
-            <h1>It's good<br>tea time at The <br>Tea House</h1>
-            <p>Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-            <button>Explore More</button>
-         </section>
     </header>
-    <main>
-
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+       <!-- header section-->
+       <section class="lg:flex pt-10 mb-20">
+        <!-- left side -->
+        <div>
+          <h1 class="text-7xl">It's good<br>tea time at The <br>Tea House</h1>
+          <p class="text-gray-500 my-7">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+          <button class="bg-gradient-to-r from-green-400 to-blue-300 h-16 w-48 text-white ">Explore More <i class="fa-solid fa-arrow-right -inset-2rotate-45"></i></button>
+        </div>
+        <!-- right side -->
+        <div class="relative top-10 relative">
+          <img src="images/banner.png" alt="">
+          <div class="absolute flex items-center bg-white shadow-lg px-2 py-3 md:px-10 lg:py-4 rounded-lg font-bold left-20 bottom-8">
+            <div class="text-yellow-200 my-auto text-2xl lg: text-3xl">
+              <i class="fa-solid fa-star"></i> 
+            </div>
+            <div class="pl-2">
+              <h2 class="text-2xl">5.00</h2>
+              <p class="text-gray-500">Trust pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- our featured products section -->
+        <section class="py-8 lg:py-24 text-center mb-8">
+          <!-- title -->
+          <h1 class="text-3xl md:text-4xl font-bold mb-5">Our Featured Products</h1>
+          <p class="text-gray-500 mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
+          <!--product cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- card no. 1 -->
+             <div class="bg-gray-50 rounded-lg shadow-md">
+              <img class="mx-auto pt-6" src="images/tea-1.png" alt="">
+              <div class="py-6 px-4">
+                <h2 class="text-2xl font-bold">Milk Tea</h2>
+                <p class="text-gray-500 pt-1">Creamer could be replaced by fresh milk</p>
+              </div>
+             </div>
+            <!-- card no. 2 -->
+             <div class="bg-gray-50 rounded-lg shadow-md">
+              <img class="mx-auto pt-6" src="images/tea-2.png" alt="">
+              <div class="py-6 px-4">
+                <h2 class="text-2xl font-bold">Lemon Tea</h2>
+                <p class="text-gray-500 pt-1">Creamer could be replaced by fresh milk</p>
+              </div>
+             </div>
+            <!-- card no. 3 -->
+             <div class="bg-gray-50 rounded-lg shadow-md">
+              <img class="mx-auto pt-6" src="images/tea-3.png" alt="">
+              <div class="py-6 px-4">
+                <h2 class="text-2xl font-bold">Black Tea</h2>
+                <p class="text-gray-500 pt-1">Creamer could be replaced by fresh milk</p>
+              </div>
+             </div>
+            <!-- card no. 4 -->
+             <div class="bg-gray-50 rounded-lg shadow-md">
+              <img class="mx-auto pt-6" src="images/tea-4.png" alt="">
+              <div class="py-6 px-4">
+                <h2 class="text-2xl font-bold">Green Tea</h2>
+                <p class="text-gray-500 pt-1">Creamer could be replaced by fresh milk</p>
+              </div>
+             </div>
+          </div>
+        </section>
     </main>
     <footer>
 
